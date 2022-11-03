@@ -13,6 +13,7 @@
 }
 
 .footer {
+  margin-top: -100px;
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -29,7 +30,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #f30082;
   text-decoration: none;
 }
 
@@ -107,7 +108,9 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+.mt{
+  padding: 20px;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
