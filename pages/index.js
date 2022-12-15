@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,14 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://captainkrishna.netlify.com">Blogposter</a>
+          Welcome to <a href="https://captainkrishna.tech">Blogposter</a>
         </h1>
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2 className={styles.mt}>Get start &rarr;</h2>
-            <p></p>
-          </a>
-        </div>
+        <Link href="/Homepage" style={{ marginTop: "100px", padding: "10px", color: "#fff", fontSize: "20px", background: "none", border: "none", }}>
+          Get Started
+        </Link>
       </main>
 
       <footer className={styles.footer}>

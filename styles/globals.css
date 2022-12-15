@@ -6,6 +6,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -20,7 +30,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+
+    background: #e2e8f2  ;
   }
 }

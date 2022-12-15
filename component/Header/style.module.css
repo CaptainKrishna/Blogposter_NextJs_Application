@@ -1,0 +1,26 @@
+.Header{
+   
+    display:flex;
+    height:60px;
+    background-color: #3982e3;   
+}
+.Headtitle{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.navtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60%;
+    font-size: 18px;
+   
+}
+.navtitle span{
+    margin:10px  20px 0px 10px;
+}
