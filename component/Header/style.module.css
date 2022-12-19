@@ -1,5 +1,4 @@
 .Header{
-   
     display:flex;
     height:60px;
     background-color: #3982e3;   
@@ -23,4 +22,15 @@
 }
 .navtitle span{
     margin:10px  20px 0px 10px;
+}
+@media (max-width:720px){
+    .navtitle{
+        display:none;
+    }
+    .Headtitle{
+       
+        width:40%;
+        font-size: 1.5rem;
+       
+    }
 }
