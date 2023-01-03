@@ -1,36 +1,49 @@
-.Header{
-    display:flex;
-    height:60px;
-    background-color: #3982e3;   
+.Header {
+    display: flex;
+    height: 60px;
+    background-color: #3982e3;
+    color: #fff;
 }
-.Headtitle{
+
+.Headtitle {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    width:20%;
+    width: 20%;
     font-weight: 500;
     font-size: 2rem;
 }
-.navtitle{
+
+.navtitle {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:60%;
+    width: 60%;
     font-size: 18px;
-   
+
 }
-.navtitle span{
-    margin:10px  20px 0px 10px;
+
+.navtitle span {
+    margin: 10px 20px 0px 10px;
 }
-@media (max-width:720px){
-    .navtitle{
-        display:none;
+
+.btnstyle {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:720px) {
+    .navtitle {
+        display: none;
     }
-    .Headtitle{
-       
-        width:40%;
+
+    .Headtitle {
+
+        width: 40%;
         font-size: 1.5rem;
-       
+
     }
 }

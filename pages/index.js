@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://captainkrishna.tech">Blogposter</a>
         </h1>
-        <Link href="/Homepage" style={{ marginTop: "100px", padding: "10px", color: "#fff", fontSize: "20px", background: "none", border: "none", }}>
+        <Link href="/Homepage" style={{ marginTop: "100px", padding: "10px", color: "black", fontSize: "20px", background: "none", border: "none", }}>
           Get Started
         </Link>
       </main>
